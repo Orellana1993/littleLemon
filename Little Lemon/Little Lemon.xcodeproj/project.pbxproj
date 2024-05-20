@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95E9E2282BF9953400DBD777 /* Little_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E9E2272BF9953400DBD777 /* Little_LemonApp.swift */; };
-		95E9E22A2BF9953400DBD777 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E9E2292BF9953400DBD777 /* ContentView.swift */; };
-		95E9E22C2BF9953600DBD777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E9E22B2BF9953600DBD777 /* Assets.xcassets */; };
-		95E9E22F2BF9953600DBD777 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E9E22E2BF9953600DBD777 /* Preview Assets.xcassets */; };
+		95412B5F2BF99E3A00CF5B7A /* Little_LemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B5E2BF99E3A00CF5B7A /* Little_LemonApp.swift */; };
+		95412B632BF99E3C00CF5B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95412B622BF99E3C00CF5B7A /* Assets.xcassets */; };
+		95412B6D2BF99F6E00CF5B7A /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B6C2BF99F6E00CF5B7A /* Onboarding.swift */; };
+		95412B6F2BF9A02400CF5B7A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B6E2BF9A02400CF5B7A /* Home.swift */; };
+		95412B712BF9A09200CF5B7A /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B702BF9A09200CF5B7A /* Menu.swift */; };
+		95412B732BF9A11E00CF5B7A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B722BF9A11E00CF5B7A /* UserProfile.swift */; };
+		95412B752BF9A19800CF5B7A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B742BF9A19800CF5B7A /* Persistence.swift */; };
+		95412B772BF9A1EA00CF5B7A /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B762BF9A1EA00CF5B7A /* FetchedObjects.swift */; };
+		95412B792BF9A25300CF5B7A /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B782BF9A25300CF5B7A /* MenuList.swift */; };
+		95412B7B2BF9A28700CF5B7A /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95412B7A2BF9A28700CF5B7A /* MenuItem.swift */; };
+		95412B7E2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95412B7C2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		95E9E2242BF9953400DBD777 /* Little Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E9E2272BF9953400DBD777 /* Little_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_LemonApp.swift; sourceTree = "<group>"; };
-		95E9E2292BF9953400DBD777 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		95E9E22B2BF9953600DBD777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		95E9E22E2BF9953600DBD777 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95412B5B2BF99E3A00CF5B7A /* Little Lemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Lemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95412B5E2BF99E3A00CF5B7A /* Little_LemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_LemonApp.swift; sourceTree = "<group>"; };
+		95412B622BF99E3C00CF5B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95412B6C2BF99F6E00CF5B7A /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		95412B6E2BF9A02400CF5B7A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		95412B702BF9A09200CF5B7A /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		95412B722BF9A11E00CF5B7A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		95412B742BF9A19800CF5B7A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		95412B762BF9A1EA00CF5B7A /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		95412B782BF9A25300CF5B7A /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		95412B7A2BF9A28700CF5B7A /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		95412B7D2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		95E9E2212BF9953400DBD777 /* Frameworks */ = {
+		95412B582BF99E3A00CF5B7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +46,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		95E9E21B2BF9953400DBD777 = {
+		95412B522BF99E3A00CF5B7A = {
 			isa = PBXGroup;
 			children = (
-				95E9E2262BF9953400DBD777 /* Little Lemon */,
-				95E9E2252BF9953400DBD777 /* Products */,
+				95412B5D2BF99E3A00CF5B7A /* Little Lemon */,
+				95412B5C2BF99E3A00CF5B7A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		95E9E2252BF9953400DBD777 /* Products */ = {
+		95412B5C2BF99E3A00CF5B7A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95E9E2242BF9953400DBD777 /* Little Lemon.app */,
+				95412B5B2BF99E3A00CF5B7A /* Little Lemon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95E9E2262BF9953400DBD777 /* Little Lemon */ = {
+		95412B5D2BF99E3A00CF5B7A /* Little Lemon */ = {
 			isa = PBXGroup;
 			children = (
-				95E9E2272BF9953400DBD777 /* Little_LemonApp.swift */,
-				95E9E2292BF9953400DBD777 /* ContentView.swift */,
-				95E9E22B2BF9953600DBD777 /* Assets.xcassets */,
-				95E9E22D2BF9953600DBD777 /* Preview Content */,
+				95412B5E2BF99E3A00CF5B7A /* Little_LemonApp.swift */,
+				95412B622BF99E3C00CF5B7A /* Assets.xcassets */,
+				95412B642BF99E3C00CF5B7A /* Preview Content */,
 			);
 			path = "Little Lemon";
 			sourceTree = "<group>";
 		};
-		95E9E22D2BF9953600DBD777 /* Preview Content */ = {
+		95412B642BF99E3C00CF5B7A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				95E9E22E2BF9953600DBD777 /* Preview Assets.xcassets */,
+				95412B6C2BF99F6E00CF5B7A /* Onboarding.swift */,
+				95412B6E2BF9A02400CF5B7A /* Home.swift */,
+				95412B702BF9A09200CF5B7A /* Menu.swift */,
+				95412B722BF9A11E00CF5B7A /* UserProfile.swift */,
+				95412B742BF9A19800CF5B7A /* Persistence.swift */,
+				95412B762BF9A1EA00CF5B7A /* FetchedObjects.swift */,
+				95412B782BF9A25300CF5B7A /* MenuList.swift */,
+				95412B7A2BF9A28700CF5B7A /* MenuItem.swift */,
+				95412B7C2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodeld */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +91,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		95E9E2232BF9953400DBD777 /* Little Lemon */ = {
+		95412B5A2BF99E3A00CF5B7A /* Little Lemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95E9E2322BF9953600DBD777 /* Build configuration list for PBXNativeTarget "Little Lemon" */;
+			buildConfigurationList = 95412B692BF99E3C00CF5B7A /* Build configuration list for PBXNativeTarget "Little Lemon" */;
 			buildPhases = (
-				95E9E2202BF9953400DBD777 /* Sources */,
-				95E9E2212BF9953400DBD777 /* Frameworks */,
-				95E9E2222BF9953400DBD777 /* Resources */,
+				95412B572BF99E3A00CF5B7A /* Sources */,
+				95412B582BF99E3A00CF5B7A /* Frameworks */,
+				95412B592BF99E3A00CF5B7A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +105,25 @@
 			);
 			name = "Little Lemon";
 			productName = "Little Lemon";
-			productReference = 95E9E2242BF9953400DBD777 /* Little Lemon.app */;
+			productReference = 95412B5B2BF99E3A00CF5B7A /* Little Lemon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		95E9E21C2BF9953400DBD777 /* Project object */ = {
+		95412B532BF99E3A00CF5B7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					95E9E2232BF9953400DBD777 = {
+					95412B5A2BF99E3A00CF5B7A = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 95E9E21F2BF9953400DBD777 /* Build configuration list for PBXProject "Little Lemon" */;
+			buildConfigurationList = 95412B562BF99E3A00CF5B7A /* Build configuration list for PBXProject "Little Lemon" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +131,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 95E9E21B2BF9953400DBD777;
-			productRefGroup = 95E9E2252BF9953400DBD777 /* Products */;
+			mainGroup = 95412B522BF99E3A00CF5B7A;
+			productRefGroup = 95412B5C2BF99E3A00CF5B7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95E9E2232BF9953400DBD777 /* Little Lemon */,
+				95412B5A2BF99E3A00CF5B7A /* Little Lemon */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		95E9E2222BF9953400DBD777 /* Resources */ = {
+		95412B592BF99E3A00CF5B7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E9E22F2BF9953600DBD777 /* Preview Assets.xcassets in Resources */,
-				95E9E22C2BF9953600DBD777 /* Assets.xcassets in Resources */,
+				95412B632BF99E3C00CF5B7A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		95E9E2202BF9953400DBD777 /* Sources */ = {
+		95412B572BF99E3A00CF5B7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95E9E22A2BF9953400DBD777 /* ContentView.swift in Sources */,
-				95E9E2282BF9953400DBD777 /* Little_LemonApp.swift in Sources */,
+				95412B6D2BF99F6E00CF5B7A /* Onboarding.swift in Sources */,
+				95412B6F2BF9A02400CF5B7A /* Home.swift in Sources */,
+				95412B792BF9A25300CF5B7A /* MenuList.swift in Sources */,
+				95412B732BF9A11E00CF5B7A /* UserProfile.swift in Sources */,
+				95412B752BF9A19800CF5B7A /* Persistence.swift in Sources */,
+				95412B7E2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodeld in Sources */,
+				95412B712BF9A09200CF5B7A /* Menu.swift in Sources */,
+				95412B7B2BF9A28700CF5B7A /* MenuItem.swift in Sources */,
+				95412B772BF9A1EA00CF5B7A /* FetchedObjects.swift in Sources */,
+				95412B5F2BF99E3A00CF5B7A /* Little_LemonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		95E9E2302BF9953600DBD777 /* Debug */ = {
+		95412B672BF99E3C00CF5B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		95E9E2312BF9953600DBD777 /* Release */ = {
+		95412B682BF99E3C00CF5B7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +292,7 @@
 			};
 			name = Release;
 		};
-		95E9E2332BF9953600DBD777 /* Debug */ = {
+		95412B6A2BF99E3C00CF5B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,7 +320,7 @@
 			};
 			name = Debug;
 		};
-		95E9E2342BF9953600DBD777 /* Release */ = {
+		95412B6B2BF99E3C00CF5B7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,25 +351,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		95E9E21F2BF9953400DBD777 /* Build configuration list for PBXProject "Little Lemon" */ = {
+		95412B562BF99E3A00CF5B7A /* Build configuration list for PBXProject "Little Lemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95E9E2302BF9953600DBD777 /* Debug */,
-				95E9E2312BF9953600DBD777 /* Release */,
+				95412B672BF99E3C00CF5B7A /* Debug */,
+				95412B682BF99E3C00CF5B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		95E9E2322BF9953600DBD777 /* Build configuration list for PBXNativeTarget "Little Lemon" */ = {
+		95412B692BF99E3C00CF5B7A /* Build configuration list for PBXNativeTarget "Little Lemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95E9E2332BF9953600DBD777 /* Debug */,
-				95E9E2342BF9953600DBD777 /* Release */,
+				95412B6A2BF99E3C00CF5B7A /* Debug */,
+				95412B6B2BF99E3C00CF5B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95412B7C2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95412B7D2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = 95412B7D2BF9A2E600CF5B7A /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 95E9E21C2BF9953400DBD777 /* Project object */;
+	rootObject = 95412B532BF99E3A00CF5B7A /* Project object */;
 }
